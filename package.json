@@ -1,0 +1,29 @@
+{
+  "name": "whatsapp-auto-download",
+  "version": "1.0.0",
+  "description": "Open-source WhatsApp bot that automatically downloads files sent by contacts",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "auto-download",
+    "whatsapp-bot",
+    "file-downloader",
+    "automation",
+    "open-source"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/whatsapp-auto-download.git"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.34.5"
+  }
+}
